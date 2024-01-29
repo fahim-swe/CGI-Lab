@@ -213,38 +213,38 @@ int main()
 
     // Question 1
     drawCircle(400, 300, 100);
-// left side
+
     drawLine(250, 500, 250, 150);
     drawLine(200, 500, 200, 150);
     drawLine(200, 150, 250, 150);
     drawLine(200, 500, 250, 500);
 
-// right side
+
     drawLine(550, 500, 600, 500);
     drawLine(600, 500, 600, 150);
     drawLine(550, 500, 550, 150);
     drawLine(550, 150, 600, 150);
 
-    drawLine(100, 500, 700, 500); // top line
-    drawLine(200, 590, 600, 590); //below line
+    drawLine(100, 500, 700, 500); 
+    drawLine(200, 590, 600, 590); 
     drawLine(200, 590, 150, 550);
-    drawLine(600, 590, 650, 550); // connecting line dot
+    drawLine(600, 590, 650, 550); 
 
-    drawDottedLine(150, 550, 650, 550); // dotted line
+    drawDottedLine(150, 550, 650, 550); 
     drawDottedLine(150, 550, 100, 500);
     drawDottedLine(650, 550, 700, 500);
 
-// below circle
+
     drawLine(400, 400, 400, 500);
     drawLine(350, 500, 350, 386);
     drawLine(450, 500, 450, 386);
 
-// above circle
+
     drawLine(350, 150, 350, 214);
     drawLine(450, 150, 450, 214);
     drawLine(400, 150, 400, 200);
 
-// top curve
+
 
     drawLine(350, 150, 400, 50);
     drawLine(400, 150, 450, 50);
@@ -254,26 +254,22 @@ int main()
    // getchar();
    // closegraph();
 
+
+	// Question 02
     initwindow(900, 600);
 
 
-// image 1
+
     drawLine(150, 400, 300, 300);
     drawDottedLine(300, 300, 155, 250);
     drawDottedLine(150, 400, 295, 450);
-
-// image 2
     drawLine(350, 450, 500, 450);
     drawLine(350, 450, 350, 250);
     drawLine(350, 250, 500, 250);
     drawLine(500, 250, 500, 450);
-
-// image 3
     drawDottedLine(550, 400, 700, 300);
     drawLine(700, 300, 550, 250);
     drawLine(550, 400, 700, 450);
-
-// image 4
     drawLine(750, 250, 750, 350);
     drawLine(750, 350, 870, 350);
     drawLine(850, 340, 850, 450);
